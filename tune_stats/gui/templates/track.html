@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tune Stats</title>
+    <link rel="stylesheet" href="{% static 'track.css' %}" />
+    <script src="{% static 'track.js' %}" type="module" defer></script>
+</head>
+
+<body>
+    <header class="header-section">
+        <nav class="header-nav">
+            <img src="{% static 'images/tune_stats_text.png' %}" alt="tune-stats-text" class="tune-stats-text">
+            <div>
+                <a href="/tunestats/profile/{{ user_data.username }}"><img src=" {{ user_data.image }}  " alt="user-small-image" class="user-small-image"></a>
+                <a href="/tunestats/profile/logout">Logout</a>
+            </div>
+        </nav>
+
+        <div class="header-main-section">
+            <img src=" {{ track_data.image }}  " alt="track-big-image" class="track-big-image">
+
+            <div class="track-data">
+                <h3>{{ track_data.artist }}</h3>
+                <h2>{{ track_data.name }} </h2>
+            </div>
+        </div>
+    </header>
+    <section class="main-section">
+        <div class="recommended">
+            <h3>You might also like</h3>
+            <div class="container">
+                {% for track in recommended_songs %}
+                <div class="track">
+                    <a href="/tunestats/{{ track.track_id }}">
+                        <img src="{{ track.image }}" class="track-image" alt="track-image">
+                        </a>
+                    <h4>{{ track.name }}</h4>
+                    <p> {{ track.artist }}</p>
+                </div>
+                    {% endfor %}
+            </div>
+        </div>
+
+        <div class="chart">
+            <div class="radar-chart">
+                {{ track_data.radio_chart | safe }}
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

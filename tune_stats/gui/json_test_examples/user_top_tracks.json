@@ -1,0 +1,197 @@
+{
+    "items": [
+      {
+        "album": {
+          "album_type": "ALBUM",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4aXUVIuNCDbLoRAYfuVDi1"
+              },
+              "href": "https://api.spotify.com/v1/artists/4aXUVIuNCDbLoRAYfuVDi1",
+              "id": "4aXUVIuNCDbLoRAYfuVDi1",
+              "name": "Jesse Royal",
+              "type": "artist",
+              "uri": "spotify:artist:4aXUVIuNCDbLoRAYfuVDi1"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/7I5OLeDLFvfEJie3B4r4GD"
+          },
+          "href": "https://api.spotify.com/v1/albums/7I5OLeDLFvfEJie3B4r4GD",
+          "id": "7I5OLeDLFvfEJie3B4r4GD",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273fc8326ef5d75d6d7f84db3ab",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02fc8326ef5d75d6d7f84db3ab",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851fc8326ef5d75d6d7f84db3ab",
+              "width": 64
+            }
+          ],
+          "name": "Royal",
+          "release_date": "2021-06-11",
+          "release_date_precision": "day",
+          "total_tracks": 11,
+          "type": "album",
+          "uri": "spotify:album:7I5OLeDLFvfEJie3B4r4GD"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4aXUVIuNCDbLoRAYfuVDi1"
+            },
+            "href": "https://api.spotify.com/v1/artists/4aXUVIuNCDbLoRAYfuVDi1",
+            "id": "4aXUVIuNCDbLoRAYfuVDi1",
+            "name": "Jesse Royal",
+            "type": "artist",
+            "uri": "spotify:artist:4aXUVIuNCDbLoRAYfuVDi1"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2ayt5jDUuTCpoTG7sHSvuq"
+            },
+            "href": "https://api.spotify.com/v1/artists/2ayt5jDUuTCpoTG7sHSvuq",
+            "id": "2ayt5jDUuTCpoTG7sHSvuq",
+            "name": "Stonebwoy",
+            "type": "artist",
+            "uri": "spotify:artist:2ayt5jDUuTCpoTG7sHSvuq"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "AE",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 253167,
+        "explicit": false,
+        "external_ids": {
+          "isrc": "US4CL2110040"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/4EaYtxELrW9TbFdhxuunt8"
+        },
+        "href": "https://api.spotify.com/v1/tracks/4EaYtxELrW9TbFdhxuunt8",
+        "id": "4EaYtxELrW9TbFdhxuunt8",
+        "is_local": false,
+        "name": "Dirty Money (feat. Stonebwoy)",
+        "popularity": 22,
+        "preview_url": "https://p.scdn.co/mp3-preview/af18cc14ff675892b33c2999d715381bc8cb9f96?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 3,
+        "type": "track",
+        "uri": "spotify:track:4EaYtxELrW9TbFdhxuunt8"
+      },
+      {
+        "album": {
+          "album_type": "ALBUM",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+              },
+              "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+              "id": "4LLpKhyESsyAXpc4laK94U",
+              "name": "Mac Miller",
+              "type": "artist",
+              "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "ZA"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/1XEycvgUklYgcYEUf7vbij"
+          },
+          "href": "https://api.spotify.com/v1/albums/1XEycvgUklYgcYEUf7vbij",
+          "id": "1XEycvgUklYgcYEUf7vbij",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2732e8e9d480a55d914e1c5ff3b",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e022e8e9d480a55d914e1c5ff3b",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048512e8e9d480a55d914e1c5ff3b",
+              "width": 64
+            }
+          ],
+          "name": "I Love Life, Thank You",
+          "release_date": "2022-07-22",
+          "release_date_precision": "day",
+          "total_tracks": 13,
+          "type": "album",
+          "uri": "spotify:album:1XEycvgUklYgcYEUf7vbij"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+            },
+            "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+            "id": "4LLpKhyESsyAXpc4laK94U",
+            "name": "Mac Miller",
+            "type": "artist",
+            "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4W48hZAnAHVOC2c8WH8pcq"
+            },
+            "href": "https://api.spotify.com/v1/artists/4W48hZAnAHVOC2c8WH8pcq",
+            "id": "4W48hZAnAHVOC2c8WH8pcq",
+            "name": "The Temper Trap",
+            "type": "artist",
+            "uri": "spotify:artist:4W48hZAnAHVOC2c8WH8pcq"
+          }
+        ],
+        "available_markets": [
+          "AD",
+          "ZA"
+        ],
+        "disc_number": 1,
+        "duration_ms": 162875,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "USA2P2212493"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/0N9C80kcgL0xXGduKnYKWi"
+        },
+        "href": "https://api.spotify.com/v1/tracks/0N9C80kcgL0xXGduKnYKWi",
+        "id": "0N9C80kcgL0xXGduKnYKWi",
+        "is_local": false,
+        "name": "Love Lost",
+        "popularity": 75,
+        "preview_url": "https://p.scdn.co/mp3-preview/0f74b04cbae2e329c1113c80fbbbb499b62491f9?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 5,
+        "type": "track",
+        "uri": "spotify:track:0N9C80kcgL0xXGduKnYKWi"
+      }
+    ],
+    "total": 50,
+    "limit": 2,
+    "offset": 5,
+    "href": "https://api.spotify.com/v1/me/top/tracks?limit=2&offset=5",
+    "next": "https://api.spotify.com/v1/me/top/tracks?limit=2&offset=7",
+    "previous": "https://api.spotify.com/v1/me/top/tracks?limit=2&offset=3"
+  }

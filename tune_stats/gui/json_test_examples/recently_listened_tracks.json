@@ -1,0 +1,219 @@
+{
+  "items": [
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+              },
+              "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+              "id": "4LLpKhyESsyAXpc4laK94U",
+              "name": "Mac Miller",
+              "type": "artist",
+              "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "ZW"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/6f6tko6NWoH00cyFOl4VYQ"
+          },
+          "href": "https://api.spotify.com/v1/albums/6f6tko6NWoH00cyFOl4VYQ",
+          "id": "6f6tko6NWoH00cyFOl4VYQ",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b2732e92f776279eaf45d14a33fd",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e022e92f776279eaf45d14a33fd",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d000048512e92f776279eaf45d14a33fd",
+              "width": 64
+            }
+          ],
+          "name": "The Divine Feminine",
+          "release_date": "2016-09-16",
+          "release_date_precision": "day",
+          "total_tracks": 10,
+          "type": "album",
+          "uri": "spotify:album:6f6tko6NWoH00cyFOl4VYQ"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+            },
+            "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+            "id": "4LLpKhyESsyAXpc4laK94U",
+            "name": "Mac Miller",
+            "type": "artist",
+            "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4jCbgl5Dmt3uOh8WRQfpPs"
+            },
+            "href": "https://api.spotify.com/v1/artists/4jCbgl5Dmt3uOh8WRQfpPs",
+            "id": "4jCbgl5Dmt3uOh8WRQfpPs",
+            "name": "Bilal",
+            "type": "artist",
+            "uri": "spotify:artist:4jCbgl5Dmt3uOh8WRQfpPs"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "XK"
+        ],
+        "disc_number": 1,
+        "duration_ms": 256426,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "USWB11601434"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/1OubIZ0ARYCUq5kceYUQiO"
+        },
+        "href": "https://api.spotify.com/v1/tracks/1OubIZ0ARYCUq5kceYUQiO",
+        "id": "1OubIZ0ARYCUq5kceYUQiO",
+        "is_local": false,
+        "name": "Congratulations (feat. Bilal)",
+        "popularity": 73,
+        "preview_url": "https://p.scdn.co/mp3-preview/c74cf5677e925f0887bfbed67dd929734bf89ab3?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 1,
+        "type": "track",
+        "uri": "spotify:track:1OubIZ0ARYCUq5kceYUQiO"
+      },
+      "played_at": "2023-02-16T11:26:18.747Z",
+      "context": {
+        "type": "artist",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      }
+    },
+    {
+      "track": {
+        "album": {
+          "album_type": "album",
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+              },
+              "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+              "id": "4LLpKhyESsyAXpc4laK94U",
+              "name": "Mac Miller",
+              "type": "artist",
+              "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+            }
+          ],
+          "available_markets": [
+            "AD",
+            "ZW"
+          ],
+          "external_urls": {
+            "spotify": "https://open.spotify.com/album/2Tyx5dLhHYkx6zeAdVaTzN"
+          },
+          "href": "https://api.spotify.com/v1/albums/2Tyx5dLhHYkx6zeAdVaTzN",
+          "id": "2Tyx5dLhHYkx6zeAdVaTzN",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273ee0f38410382a255e4fb15f4",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02ee0f38410382a255e4fb15f4",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851ee0f38410382a255e4fb15f4",
+              "width": 64
+            }
+          ],
+          "name": "GO:OD AM",
+          "release_date": "2015-09-18",
+          "release_date_precision": "day",
+          "total_tracks": 17,
+          "type": "album",
+          "uri": "spotify:album:2Tyx5dLhHYkx6zeAdVaTzN"
+        },
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+            },
+            "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+            "id": "4LLpKhyESsyAXpc4laK94U",
+            "name": "Mac Miller",
+            "type": "artist",
+            "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/360IAlyVv4PCEVjgyMZrxK"
+            },
+            "href": "https://api.spotify.com/v1/artists/360IAlyVv4PCEVjgyMZrxK",
+            "id": "360IAlyVv4PCEVjgyMZrxK",
+            "name": "Miguel",
+            "type": "artist",
+            "uri": "spotify:artist:360IAlyVv4PCEVjgyMZrxK"
+          }
+        ],
+        "available_markets": [
+          "AR",
+          "XK"
+        ],
+        "disc_number": 1,
+        "duration_ms": 208080,
+        "explicit": true,
+        "external_ids": {
+          "isrc": "USWB11508643"
+        },
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/6GnhWMhgJb7uyiiPEiEkDA"
+        },
+        "href": "https://api.spotify.com/v1/tracks/6GnhWMhgJb7uyiiPEiEkDA",
+        "id": "6GnhWMhgJb7uyiiPEiEkDA",
+        "is_local": false,
+        "name": "Weekend (feat. Miguel)",
+        "popularity": 74,
+        "preview_url": "https://p.scdn.co/mp3-preview/3cf1f12a3bc9592c18d339189dbc2b4e4f4206e2?cid=774b29d4f13844c495f206cafdad9c86",
+        "track_number": 7,
+        "type": "track",
+        "uri": "spotify:track:6GnhWMhgJb7uyiiPEiEkDA"
+      },
+      "played_at": "2023-02-16T11:22:01.327Z",
+      "context": {
+        "type": "artist",
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4LLpKhyESsyAXpc4laK94U"
+        },
+        "href": "https://api.spotify.com/v1/artists/4LLpKhyESsyAXpc4laK94U",
+        "uri": "spotify:artist:4LLpKhyESsyAXpc4laK94U"
+      }
+    }
+  ],
+  "next": "https://api.spotify.com/v1/me/player/recently-played?after=1676546778747&limit=2",
+  "cursors": {
+    "after": "1676546778747",
+    "before": "1676546521327"
+  },
+  "limit": 2,
+  "href": "https://api.spotify.com/v1/me/player/recently-played?after=1484811043508&limit=2"
+}

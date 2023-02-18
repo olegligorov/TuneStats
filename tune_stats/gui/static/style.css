@@ -1,0 +1,107 @@
+:root {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0;
+    padding: 0;
+    --orangeColor: #E46249;
+    --lightColor: #DFD7C7;
+    --darkColor: #111112;
+    --lighterDarkColor: #18181C;
+}
+
+body {
+    margin: 0px;
+    /* background-color: var(--lighterDarkColor); */
+    background-color: var(--darkColor);
+
+}
+
+.header-section {
+    background-color: var(--darkColor);
+
+    width: 100%;
+    height: 70px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tune-stats-text {
+    margin-top: 20px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+.login-button {
+    margin-right: 50px;
+    margin-top: 15px;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: var(--orangeColor);
+    cursor: pointer;
+}
+
+.login-button:hover {
+    border-color: #924232;
+    transition: .5s;
+}
+
+.login-button a {
+    color:var(--lightColor);
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    padding:10px;
+}
+
+
+.main-section {
+    background-color: var(--darkColor);
+    display:flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.middle {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.tune-stats-logo {
+    margin-top: 20px;
+}
+
+.slogan {
+    color: var(--lightColor);
+    font-weight: bold;
+    /* position: absolute;
+    top: 45%;
+    left: 7%; */
+    font-size: 20px;
+}
+
+.slogan strong {
+    color: var(--orangeColor);
+    font-size: 26px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.spotify-image {
+    height: 370px;
+    margin-top: -40px;
+    margin-left: 400px;
+    /* position: absolute;
+    top: 30%;
+    left: 45%; */
+}
+
+

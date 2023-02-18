@@ -1,0 +1,256 @@
+:root {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0;
+    padding: 0;
+    --orangeColor: #E46249;
+    --lightColor: #DFD7C7;
+    --darkColor: #111112;
+    --lighterDarkColor: #18181C;
+    --lightDark: #252525;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--lighterDarkColor);
+}
+
+.header-section {
+    padding: 0px 120px;
+    background-color: var(--darkColor);
+}
+
+.header-nav {
+    /* padding: 0px 120px; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tune-stats-text {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.user-small-image {
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.header-main-section {
+    padding: 60px 0px 10px;
+    display: flex;
+    position: relative;
+}
+
+.user-big-image {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+} 
+
+.user-data {
+    margin: 50px 30px;
+}
+.header-main-section h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.spotify-logo {
+    margin-top: -10px;
+    height: 30px;
+    width: 30px;
+}
+
+.spotify-logo:hover {
+    opacity: 0.9;
+}
+
+.timespans {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+}
+
+.timespans button {
+    border-radius: 20px;
+    /* background: var(--lightDark); */
+    cursor: pointer;
+    padding: 10px 20px;
+    color: white;
+    border: 1px;
+    font-weight: bold
+}
+
+.timespans button:hover {
+    background: var(--orangeColor);
+}
+
+.button-not-toggled {
+    background-color: var(--lightDark);
+}
+
+.button-toggled {
+    background-color: var(--orangeColor);
+}
+
+.main-section {
+    padding: 0px 120px;
+}
+
+.info {
+    font-weight: 550;
+    margin: -10px 0px 20px;
+    color: gray;
+}
+
+/* tracks */
+
+.container {
+    display: grid;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.genres {
+    margin-top: 10px;
+    border-top: solid 1px silver;
+}
+
+.genre-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.genre-container h5 {
+    margin: 2px;
+    color: white;
+    font-size: 16px;
+    background-color: var(--darkColor);
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.track {
+    max-width: 100%;
+    height: auto;
+}
+
+.track h4 {
+    color: white;
+    font-size: 20px;
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+.track p {
+    color: gray;
+    font-weight: 600px;
+    margin: 5px 0px 20px 0px;
+    font-size: 15px;
+}
+
+.track-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.main-section h3 {
+    font-size: 30px;
+    margin: 20px 0px;
+    padding: 0px;
+    color: white;
+}
+
+.info-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+/* artists */
+/* .artist-container {
+    display: grid;
+    column-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+} */
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.artist h4 {
+    color: white;
+    font-size: 20px;
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+.artist-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* listening history */
+
+.listening-history {
+    padding: 0px 120px;
+}
+
+.listening-history h3 {
+    border-top: solid 1px silver;
+    margin: 15px 0px;
+    padding: 30px 0px;
+    color: white;
+    font-size: 30px;
+}
+
+.history-track-image {
+    height: 100px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.history-track-data {
+    display: flex;
+    align-items: center;
+}
+
+.track-name {
+    color:white;
+    margin: 5px 20px 5px 20px;
+}
+
+.album-name {
+    color:white;
+    margin: 0px 0px 0px 20px;
+}
+
+.history-track-data {
+    margin-bottom: 20px;
+}

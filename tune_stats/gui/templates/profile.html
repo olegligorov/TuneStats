@@ -1,0 +1,256 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tune Stats</title>
+    <link rel="stylesheet" href="{% static 'profile.css' %}" />
+    <script src="{% static 'profile.js' %}" type="module" defer></script>
+</head>
+
+<body>
+    <header class="header-section">
+        <nav class="header-nav">
+            <img src="{% static 'images/tune_stats_text.png' %}" alt="tune-stats-text" class="tune-stats-text">
+            <div>
+                <img src=" {{ user_data.image }}  " alt="user-small-image" class="user-small-image">
+                <a href="/tunestats/profile/logout">Logout</a>
+            </div>
+        </nav>
+
+        <div class="header-main-section">
+            <img src=" {{ user_data.image }}  " alt="user-big-image" class="user-big-image">
+
+            <div class="user-data">
+                <h2>{{ user_data.username }} </h2>
+                <a href=" {{ user_data.spotify_url }}">
+                    <img src="{% static 'images/spotify_logo.webp' %}" alt="spotify-logo" class="spotify-logo">
+                </a>
+            </div>
+
+            <div class="timespans">
+                <button class="view-one-month-btn button-toggled">1 month</button>
+                <button class="view-six-months-btn button-not-toggled">6 months</button>
+                <button class="view-lifetime-btn button-not-toggled">lifetime</button>
+            </div>
+        </div>
+
+    </header>
+    <!-- top tracks first -->
+    <section class="main-section">
+
+        <div class="top-tracks-one-month one-month">
+            <div class="info-wrapper">
+                <div>
+                    <h3>Top tracks</h3>
+                    <p class="info">Your top tracks from the past one month</p>
+                </div>
+                <button class="top-tracks-one-month-btn">Show more</button>
+            </div>
+            <div class="container first-items">
+                {% for track in top_tracks_one_month|slice:":7" %}
+                <div class="track">
+                    <a href="/tunestats/{{ track.track_id }}">
+                        <img src="{{ track.image }}" class="track-image" alt="track-image">
+                    </a>
+                    <h4> {{ track.name }} </h4>
+                    <p> {{ track.artist }} </p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="container more-items hidden">
+                {% for track in top_tracks_one_month|slice:"7:" %}
+                <div class="track">
+                    <a href="/tunestats/{{ track.track_id }}">
+                        <img src="{{ track.image }}" class="track-image" alt="track-image">
+                    </a>
+
+                    <!-- <img src="{{ track.image }}" class="track-image" alt="track-image"> -->
+                    <h4> {{ track.name }} </h4>
+                    <p> {{ track.artist }} </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="top-artists-one-month one-month">
+            <div class="info-wrapper">
+                <div>
+                    <h3>Top Artists</h3>
+                    <p class="info">Your top artists from the past one month</p>
+                </div>
+                <button class="top-artists-one-month-btn">Show more</button>
+            </div>
+
+            <div class="container first-items">
+                {% for artist in top_artists_one_month|slice:":7" %}
+                <div class="artist">
+                    <img src="{{ artist.image }}" class="artist-image" alt="artist-image">
+                    <h4> {{ artist.name }} </h4>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="container more-items hidden">
+                {% for artist in top_artists_one_month|slice:"7:" %}
+                <div class="artist">
+                    <img src="{{ artist.image }}" class="artist-image" alt="artist-image">
+                    <h4> {{ artist.name }} </h4>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="top-tracks-six-months six-months hidden">
+            <div class="info-wrapper">
+                <div>
+                    <h3>Top tracks</h3>
+                    <p class="info">Your top tracks from the past six months</p>
+                </div>
+                <button class="top-tracks-six-months-btn">Show more</button>
+            </div>
+            <div class="container first-items">
+                {% for track in top_tracks_six_months|slice:":7" %}
+                <div class="track">
+                    <a href="/tunestats/{{ track.track_id }}">
+                    <img src="{{ track.image }}" class="track-image" alt="track-image">
+                    </a>
+                    <h4> {{ track.name }} </h4>
+                    <p> {{ track.artist }} </p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="container more-items hidden">
+                {% for track in top_tracks_six_months|slice:"7:" %}
+                <div class="track">
+                    <a href="/tunestats/{{ track.track_id }}">
+                    <img src="{{ track.image }}" class="track-image" alt="track-image">
+                    </a>
+                    <h4> {{ track.name }} </h4>
+                    <p> {{ track.artist }} </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="top-artists-six-months six-months hidden">
+            <div class="info-wrapper">
+                <div>
+                    <h3>Top Artists</h3>
+                    <p class="info">Your top artists from the past six months</p>
+                </div>
+                <button class="top-artists-six-months-btn">Show more</button>
+            </div>
+
+            <div class="container first-items">
+                {% for artist in top_artists_six_months|slice:":7" %}
+                <div class="artist">
+                    <img src="{{ artist.image }}" class="artist-image" alt="artist-image">
+                    <h4> {{ artist.name }} </h4>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="container more-items hidden">
+                {% for artist in top_artists_six_months|slice:"7:" %}
+                <div class="artist">
+                    <img src="{{ artist.image }}" class="artist-image" alt="artist-image">
+                    <h4> {{ artist.name }} </h4>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="top-tracks-lifetime lifetime hidden">
+            <div class="info-wrapper">
+                <div>
+                    <h3>Top tracks</h3>
+                    <p class="info">Your top tracks</p>
+                </div>
+                <button class="top-tracks-lifetime-btn">Show more</button>
+            </div>
+            <div class="container first-items">
+                {% for track in top_tracks_lifetime|slice:":7" %}
+                <div class="track">
+                    <a href="/tunestats/{{ track.track_id }}">
+                    <img src="{{ track.image }}" class="track-image" alt="track-image">
+                    </a>   
+                    <h4> {{ track.name }} </h4>
+                    <p> {{ track.artist }} </p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="container more-items hidden">
+                {% for track in top_tracks_lifetime|slice:"7:" %}
+                <div class="track">
+                    <a href="/tunestats/{{ track.track_id }}">
+                    <img src="{{ track.image }}" class="track-image" alt="track-image">
+                    </a>
+                    <h4> {{ track.name }} </h4>
+                    <p> {{ track.artist }} </p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="top-artists-lifetime lifetime hidden">
+            <div class="info-wrapper">
+                <div>
+                    <h3>Top Artists</h3>
+                    <p class="info">Your top artists</p>
+                </div>
+                <button class="top-artists-lifetime-btn">Show more</button>
+            </div>
+
+            <div class="container first-items">
+                {% for artist in top_artists_lifetime|slice:":7" %}
+                <div class="artist">
+                    <img src="{{ artist.image }}" class="artist-image" alt="artist-image">
+                    <h4> {{ artist.name }} </h4>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="container more-items hidden">
+                {% for artist in top_artists_lifetime|slice:"7:" %}
+                <div class="artist">
+                    <img src="{{ artist.image }}" class="artist-image" alt="artist-image">
+                    <h4> {{ artist.name }} </h4>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="genres">
+            <h3>Your most listened genres</h3>
+            <div class="genre-container">
+                {% for genre in genres %}
+                <h5> {{ genre }} </h5>
+                {% endfor %}
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="listening-history">
+        <h3>Listening history</h3>
+        <div class="history-container">
+            <div class="history-track">
+                {% for track in listening_history %}
+                <div class="history-track-data">
+                    <a href="/tunestats/{{ track.track_id }}">
+                    <img src="{{ track.image }}" class="history-track-image" alt="track-image">
+                    </a>
+                    <div class="history-track-inner">
+                        <h4 class="track-name"> {{ track.name }} </h4>
+                        <h5 class="album-name"> {{ track.album_name }} - {{ track.artist }} </h5>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

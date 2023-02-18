@@ -1,0 +1,83 @@
+{
+    "items": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
+        },
+        "followers": {
+          "href": null,
+          "total": 3727218
+        },
+        "genres": [
+          "rap"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0iEtIxbK0KxaSlF7G42ZOp",
+        "id": "0iEtIxbK0KxaSlF7G42ZOp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebdf9a1555f53a20087b8c5a5c",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174df9a1555f53a20087b8c5a5c",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178df9a1555f53a20087b8c5a5c",
+            "width": 160
+          }
+        ],
+        "name": "Metro Boomin",
+        "popularity": 92,
+        "type": "artist",
+        "uri": "spotify:artist:0iEtIxbK0KxaSlF7G42ZOp"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5"
+        },
+        "followers": {
+          "href": null,
+          "total": 19231525
+        },
+        "genres": [
+          "conscious hip hop",
+          "hip hop",
+          "north carolina hip hop",
+          "rap"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6l3HvQ5sa6mXTsMTB19rO5",
+        "id": "6l3HvQ5sa6mXTsMTB19rO5",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebadd503b411a712e277895c8a",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174add503b411a712e277895c8a",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178add503b411a712e277895c8a",
+            "width": 160
+          }
+        ],
+        "name": "J. Cole",
+        "popularity": 88,
+        "type": "artist",
+        "uri": "spotify:artist:6l3HvQ5sa6mXTsMTB19rO5"
+      }
+    ],
+    "total": 50,
+    "limit": 2,
+    "offset": 5,
+    "href": "https://api.spotify.com/v1/me/top/artists?limit=2&offset=5",
+    "next": "https://api.spotify.com/v1/me/top/artists?limit=2&offset=7",
+    "previous": "https://api.spotify.com/v1/me/top/artists?limit=2&offset=3"
+  }
