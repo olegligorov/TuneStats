@@ -1,5 +1,5 @@
 # TuneStats
-#### FMI Python course project
+#### Spotify stat analysis web app, analyses your most listened tracks, artists and genres with content based track recommendation system
 
 ## Requirements:
 install the requirements(dependencies) with `pip install -r requirements.txt`
